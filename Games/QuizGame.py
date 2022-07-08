@@ -38,6 +38,13 @@ if answer.lower() == 'read only memory':
 else:
     print('Wrong')
 
+answer = input(' What is RAM stands for? \n ')
+if answer.lower() == 'solid state drive':
+    print("Correct")
+    score += 1
+else:
+    print('Wrong')
+
 answer = input(' Mouse is an input device or output device? \n ')
 if answer.lower() == 'input device':
     print("Correct")
@@ -46,4 +53,4 @@ else:
     print('Wrong')
     
 print("You got the " + str(score)+ " correct answers")
-print("You got the " + str((score/5) *100)+ " correct answers")
+print("You got the " + str((score/6) *100)+ " correct answers")
